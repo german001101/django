@@ -26,3 +26,7 @@ pip install Django==4.0.6
 * backports.zoneinfo==0.2.1
 * Django==4.0.6
 * sqlparse==0.4.2
+  
+### Levantar Django
+
+> python manage.py runserver
