@@ -2,14 +2,15 @@
 
 ## Crear entorno virtual
 
-> *$ virtualenv django_env*
-> *$ source django_env/bin/activate*
+> <p>*$ virtualenv django_env*</p>
+> <p>*$ source django_env/bin/activate*</p>
 
 ## Levantar Django
 
-> *$python django_env/bin/django-admin startproject test_project*
+> <p>*$python django_env/bin/django-admin startproject test_project*</p>
 
-##Git
+## Git
 
-git push git@github.com:german001101/django.git main
-git pull git@github.com:german001101/django.git main
+> <p>git push git@github.com:german001101/django.git main</p>
+> <p> git pull git@github.com:german001101/django.git main</p>
+
