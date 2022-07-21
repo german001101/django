@@ -1,10 +1,10 @@
 # django
 
-######Crear entorno virtual
+## Crear entorno virtual
 
 *$ virtualenv django_env*
 *$ source django_env/bin/activate*
 
-######Levantar Django
+## Levantar Django
 
 *$python django_env/bin/django-admin startproject test_project*
