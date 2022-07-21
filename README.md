@@ -22,7 +22,7 @@ pip install Django==4.0.6
 
 <p>$ pip freeze</p>
 
-<p>asgiref==3.5.2
-backports.zoneinfo==0.2.1
-Django==4.0.6
+<p>asgiref==3.5.2\n
+backports.zoneinfo==0.2.1\n
+Django==4.0.6\n
 sqlparse==0.4.2</p>
