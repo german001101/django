@@ -1,4 +1,4 @@
-# django
+# DJANGO
 
 ## Crear entorno virtual
 
@@ -51,15 +51,15 @@ pip install Django==4.0.6
 ### Registro de la app
 
 * Ir a settings.py > INSTALLED_APPS
-* INSTALLED_APPS = [
-*     'django.contrib.admin',
-*     'django.contrib.auth',
-*     'django.contrib.contenttypes',
-*     'django.contrib.sessions',
-*     'django.contrib.messages',
-*     'django.contrib.staticfiles',
-*     'boletin'
-* ]
+<p>INSTALLED_APPS = [</p>
+<p>    'django.contrib.admin',</p>
+<p>    'django.contrib.auth',</p>
+<p>    'django.contrib.contenttypes',</p>
+<p>    'django.contrib.sessions',</p>
+<p>    'django.contrib.messages',</p>
+<p>    'django.contrib.staticfiles',</p>
+<p>    'boletin'</p>
+<p>]</p>
 
 ### Escribir Modelos
 
