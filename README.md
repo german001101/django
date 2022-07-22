@@ -51,44 +51,18 @@ pip install Django==4.0.6
 ### Registro de la app
 
 * Ir a settings.py > INSTALLED_APPS
-<<<<<<< HEAD
-<p>INSTALLED_APPS = [</p>
-<p>    'django.contrib.admin',</p>
-<p>    'django.contrib.auth',</p>
-<p>    'django.contrib.contenttypes',</p>
-<p>    'django.contrib.sessions',</p>
-<p>    'django.contrib.messages',</p>
-<p>    'django.contrib.staticfiles',</p>
-<p>    'boletin'</p>
-<p>]</p>
+
+![image](image/settings_Install.png)
 
 ### Escribir Modelos
 
-* boletin > models.py
+boletin > models.py\
 
-* class Registrado(models.Model):
-*     nombre = models.CharField(max_length=100, blank=True, null=True)
-*     email = models.EmailField()
-*     timestamp = models.DateField(auto_now_add=True, auto_now=False)
-* 
-*     def __unicode__(self): #Python2
-*         return self.email
-*     
-*     def __str__(self):
-*         return self.email
-
+![image](image/models_1.png)
 ### Migrar
 
-python manage.py makemigrations
-python manage.py migrate
+* python manage.py makemigrations
+* python manage.py migrate
 
-> * python src/manage.py makemigrations
-* Migrations for 'boletin':
-*   src/boletin/migrations/0001_initial.py
-*     - Create model Registrado
-* 
-* ➜ python src/manage.py migrate
-* Operations to perform:
-*   Apply all migrations: admin, auth, boletin, contenttypes, sessions
-* Running migrations:
-*   Applying boletin.0001_initial... OK
+![image](image/makemigrations.png)
+
