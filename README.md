@@ -30,3 +30,64 @@ pip install Django==4.0.6
 ### Levantar Django
 
 > python manage.py runserver
+
+### Migration(Base de datos y el proyecto)
+
+> python manage.py migrate
+
+### Crear superUsuario
+
+* python src/manage.py createsuperuser
+* Username (leave blank to use 'gburgos'): 
+* Email address: german001101@gmail.ocm
+* Password: 
+* Password (again): 
+* Superuser created successfully.
+
+### Levantar una app con django
+
+* python manage.py startapp boletin
+
+### Registro de la app
+
+* Ir a settings.py > INSTALLED_APPS
+* INSTALLED_APPS = [
+*     'django.contrib.admin',
+*     'django.contrib.auth',
+*     'django.contrib.contenttypes',
+*     'django.contrib.sessions',
+*     'django.contrib.messages',
+*     'django.contrib.staticfiles',
+*     'boletin'
+* ]
+
+### Escribir Modelos
+
+* boletin > models.py
+
+* class Registrado(models.Model):
+*     nombre = models.CharField(max_length=100, blank=True, null=True)
+*     email = models.EmailField()
+*     timestamp = models.DateField(auto_now_add=True, auto_now=False)
+* 
+*     def __unicode__(self): #Python2
+*         return self.email
+*     
+*     def __str__(self):
+*         return self.email
+
+### Migrar
+
+python manage.py makemigrations
+python manage.py migrate
+
+> * python src/manage.py makemigrations
+* Migrations for 'boletin':
+*   src/boletin/migrations/0001_initial.py
+*     - Create model Registrado
+* 
+* ➜ python src/manage.py migrate
+* Operations to perform:
+*   Apply all migrations: admin, auth, boletin, contenttypes, sessions
+* Running migrations:
+*   Applying boletin.0001_initial... OK
