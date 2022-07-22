@@ -51,6 +51,7 @@ pip install Django==4.0.6
 ### Registro de la app
 
 * Ir a settings.py > INSTALLED_APPS
+<<<<<<< HEAD
 <p>INSTALLED_APPS = [</p>
 <p>    'django.contrib.admin',</p>
 <p>    'django.contrib.auth',</p>
